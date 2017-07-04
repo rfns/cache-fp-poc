@@ -124,7 +124,7 @@ Method ReduceRight(monoid As %String, initialAccumulated As %CacheString, params
   set accumulated = initialAccumulated
   set functorValue = ..Functor.Result()
   
-  for i=..GetFunctorLength(functorValue):1:1 {
+  for i=..GetFunctorLength(functorValue):-1:1 {
     set item = ..GetFunctorItem(functorValue, i)
     set accumulated = $classmethod(className, classMethod, accumulated, item.%ConstructClone(1), i, functorValue, params...)
   }
