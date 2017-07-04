@@ -14,23 +14,6 @@
 <Implementation><![CDATA[  quit ..Content
 ]]></Implementation>
 </Method>
-
-<Storage name="Default">
-<Type>%Library.CacheStorage</Type>
-<DataLocation>^FP.CommonD</DataLocation>
-<DefaultData>CommonDefaultData</DefaultData>
-<IdLocation>^FP.CommonD</IdLocation>
-<IndexLocation>^FP.CommonI</IndexLocation>
-<StreamLocation>^FP.CommonS</StreamLocation>
-<Data name="CommonDefaultData">
-<Value name="1">
-<Value>%%CLASSNAME</Value>
-</Value>
-<Value name="2">
-<Value>Content</Value>
-</Value>
-</Data>
-</Storage>
 </Class>
 
 
