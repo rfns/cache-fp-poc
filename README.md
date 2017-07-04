@@ -5,7 +5,3 @@ This prototype describes the usage of methods for manipulating collections using
 Still, it can be pretty useful if you need some extra control over your collections without breaking sweat.
 
 To see how to use it check the class [FP.Sample](https://github.com/rfns/cache-fp-poc/blob/master/cls/FP/Sample.cls).
-
-## Notes
-
-This library
